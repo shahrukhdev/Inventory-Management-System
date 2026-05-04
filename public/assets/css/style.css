@@ -1,0 +1,26 @@
+.profile-img {
+    position: relative;
+}
+
+button#profile-button {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background-color: #FFF7F7;
+    border: none;
+    padding: 5px;
+    box-shadow: -5px 3px 7px #a7a2a2;
+    border-radius: 5px;
+}
+
+button#profile-button svg path {
+    color: #7367F0;
+}
+
+.profile-img img#profile-picture {
+    width: 124px;
+    height: 124px;
+    padding: 3px;
+    border-radius: 10px !important;
+    background-color: #fff;
+}
